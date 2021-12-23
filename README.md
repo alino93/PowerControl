@@ -1,20 +1,40 @@
 # PowerControl
-Wind Machine Power control using H-infinity, Backstepping and Sliding mode controllers
+Simuating Wind Machine Power control using H-infinity and Sliding mode controllers
 
-Sliding mode:
+## Sliding mode:
 
 1-Install FAST
+
 2-add your FAST bin folder to MATLAB directories: addpath('Your_CD_Drive:\Simulink\FAST\bin');
+
 3-Run Run_closedloop.m for running simulation
+
 4-Open Closedloop.slx to see results
 
 (run Run_img_closedloop.m for mathematical model)
 
-H-infinity:
+
+## H-infinity:
 
 1-Run Run_me.m
+
 2-Open Closedloop2.slx to see results
-3-Run Robustness.m to see 2nd attachment results.
+
+3-Run Robustness.m to see results.
+
+
+## Backstepping:
+
+1-Install FAST
+
+2-add your FAST bin folder to MATLAB directories: addpath('Your_CD_Drive:\Simulink\FAST\bin');
+
+3-Run Run_closedloop.m for running closed-loop simulation (run Run_img_closedloop.m for closed-loop mathematical model)
+
+4-Open Closedloop.slx to see results
+
+5- For open-loop modeling run Run_openloop.m (run Run_img_openloop.m for open-loop mathematical model)
+
 
 
 ## Install FAST from here:
