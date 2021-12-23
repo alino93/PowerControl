@@ -1,6 +1,9 @@
 # PowerControl
 Simuating Wind Machine Power control using H-infinity and Sliding mode controllers
 
+### Reference
+Please cite this paper: Nouriani, A. and Moradi, H., 2021. Variable speed wind turbine power control: A comparison between multiple MPPT based methods. International Journal of Dynamics and Control, pp.1-14. https://rdcu.be/cDLEI
+
 ## Sliding mode:
 
 1-Install FAST
